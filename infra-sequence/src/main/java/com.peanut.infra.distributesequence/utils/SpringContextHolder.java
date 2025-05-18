@@ -23,10 +23,10 @@ public class SpringContextHolder implements ApplicationContextAware {
         applicationContext = appContext;
     }
 
-    public static <T> T getBean(String name) {
-        Assert.notNull(applicationContext, "applicationContext属性未注入");
-        return (T) applicationContext.getBean(name);
-    }
+//    public static <T> T getBean(String name) {
+//        Assert.notNull(applicationContext, "applicationContext属性未注入");
+//        return (T) applicationContext.getBean(name);
+//    }
 
     public static <T> T getBean(Class<T> requiredType) {
         Assert.notNull(applicationContext, "applicationContext属性未注入");

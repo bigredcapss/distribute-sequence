@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <context id="Mysql" defaultModelType="flat">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection
+                driverClass="com.mysql.jdbc.Driver"
+                connectionURL="jdbc:mysql://mysql.c.t.soulapp-inc.cn:3306/audit-manual?useSSL=false"
+                userId="root"
+                password="Soul-Ops-Team"/>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 生成模型的包名和位置 -->
+        <javaModelGenerator
+                targetPackage="com.soul.backend.auditmanual.provider.pojo.model.llmreview"
+                targetProject="src/main/java">
+        </javaModelGenerator>
+
+        <!-- 生成的映射文件包名和位置 -->
+        <sqlMapGenerator
+                targetPackage="mybatis/mapper/llmreview"
+                targetProject="src/main/resources"/>
+
+        <!-- 生成DAO的包名和位置 -->
+        <javaClientGenerator
+                targetPackage="com.soul.backend.auditmanual.provider.mapper.llmreview"
+                targetProject="src/main/java"
+                type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+        <table tableName="llm_review_record" domainObjectName="LlmReviewRecord"
+               enableCountByExample="false" enableSelectByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false"/>
+
+    </context>
+</generatorConfiguration>
+        <!--
+        mvn命令生成文件：
+        mybatis-generator:generate
+        -->
+
+
