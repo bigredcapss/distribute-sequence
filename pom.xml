@@ -9,6 +9,9 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>distribute-sequence</name>
+    <description>分布式id解决方案</description>
+
 
     <modules>
         <module>infra-sequence</module>
