@@ -1,4 +1,4 @@
-package distributesequence.segment.model;
+package com.peanut.infra.distributesequence.segment.model;
 
 public class SequenceAlloc {
     

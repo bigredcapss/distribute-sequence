@@ -1,4 +1,4 @@
-package distributesequence.config;
+package com.peanut.infra.distributesequence.config;
 
 import com.peanut.infra.distributesequence.segment.SegmentService;
 import com.peanut.infra.distributesequence.utils.SpringContextHolder;

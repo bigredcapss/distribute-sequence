@@ -1,4 +1,4 @@
-package distributesequence.segment;
+package com.peanut.infra.distributesequence.segment;
 
 import com.peanut.infra.distributesequence.IDGen;
 import com.peanut.infra.distributesequence.common.Result;

@@ -1,4 +1,4 @@
-package distributesequence.segment.dao.impl;
+package com.peanut.infra.distributesequence.segment.dao.impl;
 
 import com.peanut.infra.distributesequence.segment.dao.SequenceAllocDao;
 import com.peanut.infra.distributesequence.segment.dao.SequenceAllocMapper;

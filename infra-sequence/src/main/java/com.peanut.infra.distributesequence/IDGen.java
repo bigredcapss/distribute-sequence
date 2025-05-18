@@ -1,4 +1,4 @@
-package distributesequence;
+package com.peanut.infra.distributesequence;
 
 import com.peanut.infra.distributesequence.common.Result;
 

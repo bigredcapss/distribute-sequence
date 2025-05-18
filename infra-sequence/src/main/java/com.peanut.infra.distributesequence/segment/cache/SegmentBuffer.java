@@ -1,4 +1,4 @@
-package distributesequence.segment.cache;
+package com.peanut.infra.distributesequence.segment.cache;
 
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;

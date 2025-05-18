@@ -1,4 +1,4 @@
-package distributesequence.utils;
+package com.peanut.infra.distributesequence.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

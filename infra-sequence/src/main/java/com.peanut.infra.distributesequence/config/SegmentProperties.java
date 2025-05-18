@@ -1,4 +1,4 @@
-package distributesequence.config;
+package com.peanut.infra.distributesequence.config;
 
 import org.springframework.beans.factory.annotation.Value;
 

@@ -1,11 +1,11 @@
-package distributesequence.utils;
+package com.peanut.infra.distributesequence.utils;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author peanut
- * @description 序列线程工厂
+ * @author: peanut
+ * @description: 序列线程工厂
  */
 public class SequenceThreadFactory implements ThreadFactory {
 

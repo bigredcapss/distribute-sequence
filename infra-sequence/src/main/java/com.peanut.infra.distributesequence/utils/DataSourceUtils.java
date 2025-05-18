@@ -1,4 +1,4 @@
-package distributesequence.utils;
+package com.peanut.infra.distributesequence.utils;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.peanut.infra.distributesequence.config.SegmentProperties;

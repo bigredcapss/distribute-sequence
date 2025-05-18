@@ -1,4 +1,4 @@
-package distributesequence.common;
+package com.peanut.infra.distributesequence.common;
 
 /**
  * @author peanut

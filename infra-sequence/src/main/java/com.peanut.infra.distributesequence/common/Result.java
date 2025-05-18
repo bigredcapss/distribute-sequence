@@ -1,8 +1,8 @@
-package distributesequence.common;
+package com.peanut.infra.distributesequence.common;
 
 /**
- * @author peanut
- * @description 封装结果
+ * @author: peanut
+ * @description: 封装结果
  */
 public class Result {
     private long id;

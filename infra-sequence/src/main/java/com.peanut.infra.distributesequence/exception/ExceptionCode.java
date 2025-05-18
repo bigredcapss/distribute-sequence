@@ -1,4 +1,4 @@
-package distributesequence.exception;
+package com.peanut.infra.distributesequence.exception;
 
 /**
  * @author peanut

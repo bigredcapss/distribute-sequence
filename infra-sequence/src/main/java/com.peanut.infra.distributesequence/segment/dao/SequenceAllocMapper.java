@@ -1,4 +1,4 @@
-package distributesequence.segment.dao;
+package com.peanut.infra.distributesequence.segment.dao;
 
 import com.peanut.infra.distributesequence.segment.model.SequenceAlloc;
 import org.apache.ibatis.annotations.*;
